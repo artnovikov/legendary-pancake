@@ -1,7 +1,7 @@
 server {
     index index.html index.php;
     server_name localhost;
-    root /var/www/html;
+    root /var/www/html/public;
 
     location / {
         try_files $uri $uri/ /index.php?$query_string;
